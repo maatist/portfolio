@@ -20,7 +20,7 @@ const Computers = ({isMobile}) => {
           intensity={1}
         />
         <spotLight 
-          power={60000}
+          power={50000}
           position={[-20, 50, 10]}
           angle={0.12}
           penumbra={1}
