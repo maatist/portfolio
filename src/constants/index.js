@@ -3,6 +3,7 @@ import {
     backend,
     creator,
     web,
+    blockchain,
     javascript,
     typescript,
     html,
@@ -47,16 +48,13 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Blockchain Developer",
+      icon: blockchain,
+    },
+    
+    {
+      title: "Mobile Developer",
       icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -98,16 +96,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -119,7 +109,7 @@ import {
       iconBg: "#383E56",
       date: "Abril 2021 - Actualidad",
       points: [
-        "Participando en desarrollo de nuevas funcionalidades a una aplicación Android nativa programada en Java con servicio en SpringBoot, esta aplicación se conecta con un ERP por medio de SP a una base SQL Server.",
+        "Participando en desarrollo de nuevas funcionalidades a una aplicación Android nativa programada en Java con servicio en Spring, esta aplicación se conecta con un ERP por medio de SP a una base SQL Server.",
         "Mantenimiento de ERP desarrollado en Centura, me encontré con el desafió de aprender este lenguaje entrando al equipo.",
         
       ],

@@ -49,7 +49,10 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] maw-w-3xl leading-[30px]'
       >
-        Soy un desarrollador web full stack con sede en la Ciudad de México, México. Tengo experiencia en el desarrollo de aplicaciones web y móviles. Me encanta crear cosas que funcionen en la web, ya sea un sitio web, aplicación web o aplicación móvil. Mi objetivo es siempre construir productos que proporcionen experiencias agradables e intuitivas.
+        Soy un desarrollador web full stack con sede en la Ciudad de Viña Del Mar, Chile. <br />
+        Tengo experiencia en el desarrollo de aplicaciones web, blockchain y mobile. <br />
+        Mi objetivo es siempre construir productos que proporcionen experiencias agradables e intuitivas junto con soluciones efectivas. <br />  
+        Me encantaria crear cosas que se puedan visualizar en la web en un periodo corto de tiempo, que sea util para el cliente y en lo posible relacionado con la web3.
       </motion.p>
 
       <div
