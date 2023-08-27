@@ -30,7 +30,7 @@ const Computers = ({isMobile}) => {
         />
         <primitive 
           object={computer.scene}
-          scale={isMobile ? 0.60 : 0.70}
+          scale={isMobile ? 0.45 : 0.70}
           position={isMobile ? [0, -2, -1.5] : [0, -2.25, -1.5]}
           rotation={[-0.01, -0.2, -0.1]}
         />
@@ -66,9 +66,12 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
+          autoRotateSpeed={0.4}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          mouseButtons={{LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.ROTATE, RIGHT: THREE.MOUSE.ROTATE}}
         />
         <mesh>
           <Computers isMobile={isMobile} />

@@ -12,7 +12,7 @@ const Contact = () => {
 
   const formRef = useRef()
 
-  const [form, setform] = useState({
+  const [form, setForm] = useState({
     name: "",
     email: "",
     message: ""
@@ -20,9 +20,42 @@ const Contact = () => {
 
   const [loading, setloading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setForm({...form, [name]: value})
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setloading(true)
+    emailjs.send
+
+    emailjs.send(
+      "service_ls65kzu", 
+      "template_u7jzpa5", 
+      {
+        from_name: form.name,
+        to_name: "Matias",
+        from_email: form.email,
+        to_email: 'matias.seto@gmail.com',
+        message: form.message
+      }, 
+      "ovvRyQo-trGJIWExW")
+      .then(() => {
+        setloading(false)
+        alert("Mensaje enviado correctamente, te contactare a la brevedad")
+        setForm({
+          name: "",
+          email: "",
+          message: ""
+        })
+      }, (error) => {
+        setloading(false)
+        console.log(error)
+        alert("Ocurrio un error al enviar el mensaje, intentalo nuevamente mas tarde")
+      }
+    )
+  }
 
 
   return (
@@ -70,11 +103,11 @@ const Contact = () => {
           >
             <span
               className='text-white font-medium mb-4'
-            >Eu Email
+            >Tu Email
             </span>
             <input
               type='email'
-              name='name'
+              name='email'
               value={form.email}
               onChange={handleChange}
               placeholder='Cual es tu email?'
