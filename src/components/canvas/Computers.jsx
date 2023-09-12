@@ -1,41 +1,41 @@
 import React from 'react'
-import {Suspense, useEffect, useState} from 'react'
+import { Suspense, useEffect, useState } from 'react'
 import * as THREE from "three";
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Preload, meshBounds, useGLTF } from '@react-three/drei'
 
 import CanvasLoader from '../Loader'
 
-const Computers = ({isMobile}) => {
+const Computers = ({ isMobile }) => {
   const computer = useGLTF('./desktop_pc/scene.gltf')
 
 
   return (
-      <mesh>
-        <hemisphereLight 
-          intensity={0.45} 
-          groundColor='black'
-        />
-        <pointLight
-          intensity={1}
-        />
-        <spotLight 
-          power={50000}
-          position={[-20, 50, 10]}
-          angle={0.12}
-          penumbra={1}
-          intensity={1}
-          castShadow
-          shadow-mapSize-width={1024}
-        />
-        <primitive 
-          object={computer.scene}
-          scale={isMobile ? 0.45 : 0.70}
-          position={isMobile ? [0, -2, -1.5] : [0, -2.25, -1.5]}
-          rotation={[-0.01, -0.2, -0.1]}
-        />
+    <mesh>
+      <hemisphereLight
+        intensity={0.45}
+        groundColor='black'
+      />
+      <pointLight
+        intensity={1}
+      />
+      <spotLight
+        power={50000}
+        position={[-20, 50, 10]}
+        angle={0.12}
+        penumbra={1}
+        intensity={1}
+        castShadow
+        shadow-mapSize-width={1024}
+      />
+      <primitive
+        object={computer.scene}
+        scale={isMobile ? 0.45 : 0.70}
+        position={isMobile ? [0, -2, -1.5] : [0, -2.25, -1.5]}
+        rotation={[-0.01, -0.2, -0.1]}
+      />
 
-      </mesh>
+    </mesh>
   )
 }
 
@@ -45,11 +45,11 @@ const ComputersCanvas = () => {
   useEffect(() => {
     const mediaQuery = window.matchMedia('(max-width: 640px)')
     setIsMobile(mediaQuery.matches)
-    
+
     const handleMediaQueryChange = (event) => {
       setIsMobile(event.matches)
     }
-    mediaQuery.addEventListener('change',handleMediaQueryChange)
+    mediaQuery.addEventListener('change', handleMediaQueryChange)
 
     return () => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange)
@@ -71,7 +71,7 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
-          mouseButtons={{LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.ROTATE, RIGHT: THREE.MOUSE.ROTATE}}
+          mouseButtons={{ LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.ROTATE, RIGHT: THREE.MOUSE.ROTATE }}
         />
         <mesh>
           <Computers isMobile={isMobile} />

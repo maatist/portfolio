@@ -32,6 +32,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import minecraftClone from "./minecraft-clone.png";
+import crow1render from "./crow1render.png";
+import rickandmortygifs from "./rickandmortygifs.png";
+
 
 export {
   logo,
@@ -65,4 +68,6 @@ export {
   jobit,
   tripguide,
   minecraftClone,
+  crow1render,
+  rickandmortygifs,
 };
