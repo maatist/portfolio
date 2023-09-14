@@ -28,7 +28,7 @@ import flutter from "./tech/flutter.png";
 import GitHub from "./tech/GitHub.png";
 import java from "./tech/java.png";
 import mysql from "./tech/mysql.png";
-import nextjs from "./tech/nextjs.png";
+import nextjs from "./tech/nextJS.png";
 import postman from "./tech/postman.png";
 import python from "./tech/python.png";
 import solidity from "./tech/solidity.png";
