@@ -21,6 +21,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aStudio from "./tech/aStudio.png";
+import expressjs from "./tech/expressjs.png";
+import firebase from "./tech/firebase.png";
+import flutter from "./tech/flutter.png";
+import GitHub from "./tech/GitHub.png";
+import java from "./tech/java.png";
+import mysql from "./tech/mysql.png";
+import nextjs from "./tech/nextjs.png";
+import postman from "./tech/postman.png";
+import python from "./tech/python.png";
+import solidity from "./tech/solidity.png";
+import sqlServer from "./tech/sqlServer.png";
+import thirdewb from "./tech/thirdweb.png";
+import vsCode from "./tech/vsCode.png";
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -70,4 +85,18 @@ export {
   minecraftClone,
   crow1render,
   rickandmortygifs,
+  aStudio,
+  expressjs,
+  firebase,
+  flutter,
+  GitHub,
+  java,
+  mysql,
+  nextjs,
+  postman,
+  python,
+  solidity,
+  sqlServer,
+  thirdewb,
+  vsCode,
 };

@@ -27,7 +27,21 @@ import {
   threejs,
   minecraftClone,
   crow1render,
-  rickandmortygifs
+  rickandmortygifs,
+  aStudio,
+  expressjs,
+  firebase,
+  flutter,
+  GitHub,
+  java,
+  mysql,
+  nextjs,
+  postman,
+  python,
+  solidity,
+  sqlServer,
+  thirdewb,
+  vsCode,
 } from "../assets";
 
 export const navLinks = [
@@ -101,6 +115,144 @@ const technologies = [
   {
     name: "git",
     icon: git,
+  },
+];
+
+const skills = [
+  {
+    title: "Frontend",
+    skills: [
+      {
+        name: "React Js",
+        image: reactjs,
+      },
+      {
+        name: "Redux",
+        image: redux,
+      },
+      {
+        name: "Next Js",
+        image:
+          nextjs,
+      },
+      {
+        name: "HTML",
+        image: html,
+      },
+      {
+        name: "CSS",
+        image:
+          css,
+      },
+      {
+        name: "JavaScript",
+        image:
+          javascript,
+      },
+      {
+        name: "TailwindCSS",
+        image:
+          tailwind,
+      },
+      {
+        name: "ThreeJs",
+        image:
+          threejs,
+      },
+    ],
+  },
+  {
+    title: "Backend",
+    skills: [
+      {
+        name: "Node Js",
+        image: nodejs,
+      },
+      {
+        name: "Express Js",
+        image:
+          expressjs,
+      },
+      {
+        name: "Python",
+        image:
+          python,
+      },
+      {
+        name: "MySQL",
+        image:
+          mysql,
+      },
+      {
+        name: "SQLServer",
+        image:
+          sqlServer,
+      },
+      {
+        name: "MongoDB",
+        image:
+          mongodb,
+      },
+      {
+        name: "Firebase",
+        image: firebase,
+      },
+    ],
+  },
+  {
+    title: "Movil",
+    skills: [
+      {
+        name: "Java",
+        image:
+          java,
+      },
+      {
+        name: "Android Studio",
+        image:
+          aStudio,
+      },
+      {
+        name: "Flutter",
+        image:
+          flutter,
+      },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Git",
+        image:
+          git,
+      },
+      {
+        name: "GitHub",
+        image:
+          GitHub,
+      },
+      {
+        name: "Thirdweb",
+        image:
+          thirdewb,
+      },
+      {
+        name: "VS Code",
+        image:
+          vsCode,
+      },
+      {
+        name: "Postman",
+        image:
+          postman,
+      },
+      {
+        name: "Solidity",
+        image:
+          solidity,
+      },
+    ],
   },
 ];
 
@@ -196,4 +348,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, skills };
