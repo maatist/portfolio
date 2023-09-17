@@ -22,7 +22,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target
-    setForm({...form, [name]: value})
+    setForm({ ...form, [name]: value })
   }
 
   const handleSubmit = (e) => {
@@ -31,15 +31,15 @@ const Contact = () => {
     emailjs.send
 
     emailjs.send(
-      "service_ls65kzu", 
-      "template_u7jzpa5", 
+      "service_ls65kzu",
+      "template_u7jzpa5",
       {
         from_name: form.name,
         to_name: "Matias",
         from_email: form.email,
         to_email: 'matias.seto@gmail.com',
         message: form.message
-      }, 
+      },
       "ovvRyQo-trGJIWExW")
       .then(() => {
         setloading(false)
@@ -54,7 +54,7 @@ const Contact = () => {
         console.log(error)
         alert("Ocurrio un error al enviar el mensaje, intentalo nuevamente mas tarde")
       }
-    )
+      )
   }
 
 
@@ -69,7 +69,7 @@ const Contact = () => {
         <p
           className={styles.sectionSubText}
         >
-          Como ubicarme
+          Como ubicarme.
         </p>
         <h3
           className={styles.sectionHeadText}
@@ -77,12 +77,12 @@ const Contact = () => {
           Contacto.
         </h3>
 
-        <form 
+        <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
         >
-          <label 
+          <label
             className='flex flex-col'
           >
             <span
@@ -98,7 +98,7 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondaty text-white rounded-lg outlined-none border-none font-medium'
             />
           </label>
-          <label 
+          <label
             className='flex flex-col'
           >
             <span
@@ -114,7 +114,7 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondaty text-white rounded-lg outlined-none border-none font-medium'
             />
           </label>
-          <label 
+          <label
             className='flex flex-col'
           >
             <span
@@ -134,7 +134,7 @@ const Contact = () => {
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
-          > 
+          >
             {loading ? "Enviando..." : "Enviar"}
           </button>
 
@@ -150,4 +150,4 @@ const Contact = () => {
   )
 }
 
-export default sectionWraper(Contact,"contact")
+export default sectionWraper(Contact, "contact")

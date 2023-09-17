@@ -1,5 +1,7 @@
-import { VerticalTimeline,
-VerticalTimelineElement } from 'react-vertical-timeline-component';
+import {
+  VerticalTimeline,
+  VerticalTimelineElement
+} from 'react-vertical-timeline-component';
 import { motion } from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css'
 import React from 'react'
@@ -10,20 +12,20 @@ import { sectionWraper } from '../hoc';
 import { textVariant } from '../utils/motion'
 
 
-const ExperienceCard = ({experience}) => (
+const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: '#1d1836', color: '#fff' }}
-    contentArrowStyle={{borderRight: '7px solid  #232631'}}
+    contentArrowStyle={{ borderRight: '7px solid  #232631' }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
     icon={
       <div className='flex justify-center items-center w-full h-full' >
-        <img src= {experience.icon} alt={experience.company_name}
+        <img src={experience.icon} alt={experience.company_name}
           className='w-[60%] h-[60%] object-contain'
-         />
+        />
       </div>
     }
->
+  >
     <div>
       <h3
         className='text-white text-[24px] font-bold'
@@ -32,7 +34,7 @@ const ExperienceCard = ({experience}) => (
       </h3>
       <p
         className='text-secondary text-[16px] font-semibold'
-        style={{margin: 0}}
+        style={{ margin: 0 }}
       >
         {experience.company_name}
       </p>
@@ -48,7 +50,7 @@ const ExperienceCard = ({experience}) => (
         >
           {point}
         </li>
-      ))  
+      ))
       }
     </ul>
   </VerticalTimelineElement>
@@ -62,8 +64,8 @@ const Experience = () => {
       <motion.div
         variants={textVariant()}
       >
-        <p className={styles.sectionSubText}>Que he hecho hasta ahora</p>
-        <h2 className={styles.sectionHeadText} >Experiencia de trabajo</h2>
+        <p className={styles.sectionSubText}>Que he hecho hasta ahora.</p>
+        <h2 className={styles.sectionHeadText} >Experiencia de trabajo.</h2>
       </motion.div>
 
       <div
@@ -71,7 +73,7 @@ const Experience = () => {
       >
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience = {experience}/>
+            <ExperienceCard key={index} experience={experience} />
           ))}
         </VerticalTimeline>
       </div>

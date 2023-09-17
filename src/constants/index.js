@@ -200,7 +200,7 @@ const skills = [
     ],
   },
   {
-    title: "Movil",
+    title: "Mobile",
     skills: [
       {
         name: "Java",
@@ -220,7 +220,7 @@ const skills = [
     ],
   },
   {
-    title: "Others",
+    title: "Otros",
     skills: [
       {
         name: "Git",
@@ -278,7 +278,7 @@ const projects = [
   {
     name: "Minecraft Clone",
     description:
-      "Aplicación web creada en React y Threejs, con el fin de aprender a usar Threejs y sus funcionalidades. Para el desarrollo se utilizo de ejemplo el proyecto de freeCodeCamp. El proyecto estaba desactualizado, lo que me ayudo a entrar mucho más en la documentación de la librería",
+      "Aplicación web creada en React y Threejs, con el fin de aprender a usar Threejs y sus funcionalidades. Para el desarrollo se utilizo de ejemplo el proyecto de freeCodeCamp. El proyecto estaba desactualizado, lo que me ayudo a entrar mucho más en la documentación de la librería.",
     tags: [
       {
         name: "React",
@@ -295,7 +295,7 @@ const projects = [
   {
     name: "Crow Funding",
     description:
-      "Este proyecto de React es interesante, ya que interactúa directamente con un contrato inteligente programado en Solidity deployado sobre la red de pruebas sepolia. Para interactuar con él, se utiliza la billetera Metamask. Desde el cliente se utiliza Thirdweb para llamar al smart contract y realizar transacciones",
+      "Este proyecto de React es interesante, ya que interactúa directamente con un contrato inteligente programado en Solidity deployado sobre la red de pruebas sepolia. Para interactuar con él, se utiliza la billetera Metamask. Desde el cliente se utiliza Thirdweb para llamar al smart contract y realizar transacciones.",
     tags: [
       {
         name: "React",
@@ -324,7 +324,7 @@ const projects = [
   {
     name: "Rick and Morty GIFs",
     description:
-      "En este proyecto de React, interactuo con un smart contract desarrollado en Rust y deployado en la Devnet de Solana. Para interactuar con esta utilice la libreria Solana-Web3.js. Este fue mi primer proyecto web3",
+      "En este proyecto de React, interactuo con un smart contract desarrollado en Rust y deployado en la Devnet de Solana. Para interactuar con esta utilice la libreria Solana-Web3.js. Este fue mi primer proyecto web3.",
     tags: [
       {
         name: "React",

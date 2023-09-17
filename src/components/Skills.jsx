@@ -18,7 +18,7 @@ const Skills = () => {
                 <h2
                     className={styles.sectionHeadText}
                 >
-                    Skills
+                    Skills.
                 </h2>
                 <p
                     className="text-secondary text-[17px] max-w-3xl leading-[30px]"
@@ -32,43 +32,37 @@ const Skills = () => {
                     className='w-full h-full flex flex-wrap mt-[30px] gap-[30px] justify-center'
                 >
                     {skills.map((skill, index) => (
-                        <Tilt
+                        <motion.div
                             key={index}
+                            variants={fadeIn("right", "spring", 0.25 * index, 0.75)}
                         >
-                            <motion.div
-                                variants={fadeIn("right", "spring", 0.25 * index, 0.75)}
+                            <div
+                                className='w-full h-full max-w-[500px] border-solid border-skillBorder border-[0.1px] shadow-lg shadow-skillBoxShadow rounded-lg m-2 px-[40px] py-[16px]'
 
-                                className='h-full'
                             >
-                                <div
-                                    className='w-full h-full max-w-[500px] border-solid border-skillBorder border-[0.1px] shadow-lg shadow-skillBoxShadow rounded-lg m-2 px-[40px] py-[36px]'
-
+                                <h2
+                                    className='text-[28px] font-semibold text-secondary text-center mb-6'
                                 >
-                                    <h2
-                                        className='text-[28px] font-semibold text-secondary text-center mb-6'
-                                    >
-                                        {skill.title}
-                                    </h2>
-                                    <div
-                                        className='flex justify-center flex-wrap gap-[12px] mt-[20px]'
-                                    >
-                                        {skill.skills.map((item, index) => (
-                                            <div
-                                                className='text-[16px] font-normal text-secondary border-solid border-[1px] rounded-2xl px-[12px] py-[16px] flex align-middle items-center justify-center gap-2 bg-secondary/5'
-                                                key={index}
-                                            >
-                                                <img
-                                                    className='w-[34px] h-[34px]'
-                                                    src={item.image}
-                                                />
-                                                {item.name}
-                                            </div>
-                                        ))}
-                                    </div>
+                                    {skill.title}
+                                </h2>
+                                <div
+                                    className='flex justify-center flex-wrap gap-[12px] mt-[20px]'
+                                >
+                                    {skill.skills.map((item, index) => (
+                                        <div
+                                            className='text-[16px] font-normal text-secondary border-solid border-[1px] rounded-2xl px-[12px] py-[16px] flex align-middle items-center justify-center gap-2 bg-secondary/5'
+                                            key={index}
+                                        >
+                                            <img
+                                                className='w-[34px] h-[34px]'
+                                                src={item.image}
+                                            />
+                                            {item.name}
+                                        </div>
+                                    ))}
                                 </div>
-                            </motion.div>
-                        </Tilt>
-
+                            </div>
+                        </motion.div>
                     ))}
 
                 </div>
