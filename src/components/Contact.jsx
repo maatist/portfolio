@@ -90,6 +90,7 @@ const Contact = () => {
             >Tu nombre
             </span>
             <input
+              required
               type='text'
               name='name'
               value={form.name}
@@ -106,6 +107,7 @@ const Contact = () => {
             >Tu Email
             </span>
             <input
+              required
               type='email'
               name='email'
               value={form.email}
@@ -122,6 +124,7 @@ const Contact = () => {
             >Tu mensaje
             </span>
             <textarea
+              required
               rows="7"
               name='message'
               value={form.message}
