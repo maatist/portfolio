@@ -264,27 +264,11 @@ const experiences = [
 
 
 const projects = [
-  {
-    name: "Minecraft Clone",
-    description:
-      "Aplicación web creada en React y Threejs, con el fin de aprender a usar Threejs y sus funcionalidades. Para el desarrollo se utilizo de ejemplo el proyecto de freeCodeCamp. El proyecto estaba desactualizado, lo que me ayudo a entrar mucho más en la documentación de la librería.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Threejs",
-        color: "green-text-gradient",
-      }
-    ],
-    image: minecraftClone,
-    source_code_link: "https://github.com/maatist/minecraft-clone",
-  },
+
   {
     name: "Crow Funding",
     description:
-      "Este proyecto de React es interesante, ya que interactúa directamente con un contrato inteligente programado en Solidity deployado sobre la red de pruebas sepolia. Para interactuar con él, se utiliza la billetera Metamask. Desde el cliente se utiliza Thirdweb para llamar al smart contract y realizar transacciones.",
+      "Este proyecto de React es interesante, ya que interactúa directamente con un contrato inteligente programado en Solidity deployado sobre la red de pruebas de ethereum, sepolia. Para interactuar con él, se utiliza la billetera Metamask. Desde el cliente se utiliza Thirdweb para llamar al smart contract y realizar transacciones.",
     tags: [
       {
         name: "React",
@@ -334,6 +318,23 @@ const projects = [
     ],
     image: rickandmortygifs,
     source_code_link: "https://github.com/maatist/Solana_buildspace_1-GIF",
+  },
+  {
+    name: "Minecraft Clone",
+    description:
+      "Aplicación web creada en React y Threejs, con el fin de aprender a usar Threejs y sus funcionalidades. Para el desarrollo se utilizo de ejemplo el proyecto de freeCodeCamp. El proyecto estaba desactualizado, lo que me ayudo a entrar mucho más en la documentación de la librería.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Threejs",
+        color: "green-text-gradient",
+      }
+    ],
+    image: minecraftClone,
+    source_code_link: "https://github.com/maatist/minecraft-clone",
   },
 ];
 
