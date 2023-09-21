@@ -63,10 +63,14 @@ const Navbar = () => {
 
 
           <div
-            className={`${!toggle ? 'hidden' : 'flex'} p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl bg-primary`}
+            className={`${!toggle ? 'hidden' : 'flex'} justify-center w-full md:block absolute left-0 top-[76px] z-10 bg-primary pb-4 rounded-b-3xl`}
           >
+
+            {/* <div
+            className={`${!toggle ? 'hidden' : 'flex'} p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl bg-primary`}
+          > */}
             <ul
-              className='list-none flex justify-end items-start flex-col gap-4'
+              className='list-none flex justify-center items-center flex-col gap-4'
             >
               {navLinks.map((link) => (
                 <li
