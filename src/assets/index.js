@@ -38,6 +38,8 @@ import minecraftClone from "./minecraft-clone.png";
 import crow1render from "./crow1render.png";
 import rickandmortygifs from "./rickandmortygifs.png";
 
+import resume from "./Matias-Sepulveda-CV.pdf"
+
 
 export {
   logo,
@@ -76,4 +78,5 @@ export {
   sqlServer,
   thirdewb,
   vsCode,
+  resume,
 };

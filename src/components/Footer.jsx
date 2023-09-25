@@ -2,7 +2,9 @@ import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faCopyright } from '@fortawesome/free-regular-svg-icons'
+import { faCopyright, faFile } from '@fortawesome/free-regular-svg-icons'
+
+import { resume } from '../assets'
 
 const Footer = () => {
     return (
@@ -20,7 +22,11 @@ const Footer = () => {
                         </div>
                     </div>
                     <div>
-                        <a href="#" className='w-10 h-10 rounded-full pt-1'>
+
+                        <a href={resume} download="Matias Sepulveda CV" className='w-10 h-10 rounded-full pt-1 mr-7'>
+                            Descargar CV <FontAwesomeIcon size='xl' icon={faFile} className='ml-1' />
+                        </a>
+                        <a href="https://www.linkedin.com/in/matiseto/" className='w-10 h-10 rounded-full pt-1'>
                             <FontAwesomeIcon size='xl' icon={faLinkedin} />
                         </a>
                     </div>
