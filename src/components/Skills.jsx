@@ -28,7 +28,7 @@ const Skills = () => {
 
 
                 <div
-                    className='w-full h-full flex flex-wrap mt-[30px] gap-[30px] justify-center'
+                    className='w-full h-full grid grid-cols-1 md:grid-cols-2 mt-[30px] gap-[30px]'
                 >
                     {skills.map((skill, index) => (
                         <motion.div
@@ -36,7 +36,7 @@ const Skills = () => {
                             variants={fadeIn("right", "spring", 0.25 * index, 0.75)}
                         >
                             <div
-                                className='w-full h-full max-w-[500px] border-solid border-skillBorder border-[0.1px] shadow-lg shadow-skillBoxShadow rounded-lg m-2 px-3 xs:px-[40px] py-[16px]'
+                                className='w-full h-full min-w-[330px] max-w-[500px] border-solid border-skillBorder border-[0.1px] shadow-lg shadow-skillBoxShadow rounded-lg m-2 px-3 xs:px-[40px] py-[16px]'
 
                             >
                                 <h2

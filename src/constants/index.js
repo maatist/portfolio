@@ -124,7 +124,7 @@ const skills = [
         image:
           nextjs,
       },
-      {
+      /* {
         name: "HTML",
         image: html,
       },
@@ -137,17 +137,17 @@ const skills = [
         name: "JavaScript",
         image:
           javascript,
-      },
+      }, */
       {
         name: "TailwindCSS",
         image:
           tailwind,
       },
-      {
+      /* {
         name: "ThreeJs",
         image:
           threejs,
-      },
+      }, */
     ],
   },
   {
@@ -162,11 +162,11 @@ const skills = [
         image:
           expressjs,
       },
-      {
-        name: "Python",
-        image:
-          python,
-      },
+      /*      {
+             name: "Python",
+             image:
+               python,
+           }, */
       {
         name: "MySQL",
         image:
@@ -177,11 +177,11 @@ const skills = [
         image:
           sqlServer,
       },
-      {
-        name: "MongoDB",
-        image:
-          mongodb,
-      },
+      /*       {
+              name: "MongoDB",
+              image:
+                mongodb,
+            }, */
       {
         name: "Firebase",
         image: firebase,
@@ -211,17 +211,17 @@ const skills = [
   {
     title: "Otros",
     skills: [
-      {
+      /* {
         name: "Git",
         image:
           git,
-      },
+      }, */
       {
         name: "GitHub",
         image:
           GitHub,
       },
-      {
+      /* {
         name: "Thirdweb",
         image:
           thirdewb,
@@ -230,7 +230,7 @@ const skills = [
         name: "VS Code",
         image:
           vsCode,
-      },
+      }, */
       {
         name: "Postman",
         image:
