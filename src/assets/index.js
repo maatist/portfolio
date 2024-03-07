@@ -33,6 +33,7 @@ import thirdewb from "./tech/thirdweb.png";
 import vsCode from "./tech/vsCode.png";
 
 import edsa from "./company/edsa.png";
+import mcl from "./company/mcl.png";
 
 import minecraftClone from "./minecraft-clone.png";
 import crow1render from "./crow1render.png";
@@ -61,6 +62,7 @@ export {
   typescript,
   threejs,
   edsa,
+  mcl,
   minecraftClone,
   crow1render,
   rickandmortygifs,

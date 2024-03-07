@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className='text-center' >
                         <div>
                             <FontAwesomeIcon icon={faCopyright} /> <strong> <span>MATISETO</span> </strong>
-                            2023
+                            2024
                         </div>
                     </div>
                     <div>

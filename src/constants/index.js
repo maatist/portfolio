@@ -13,6 +13,7 @@ import {
   mongodb,
   git,
   edsa,
+  mcl,
   threejs,
   minecraftClone,
   crow1render,
@@ -248,10 +249,21 @@ const skills = [
 const experiences = [
   {
     title: "Desarrollador de Software",
+    company_name: "MCL Consulting",
+    icon: mcl,
+    iconBg: "#383E56",
+    date: "Diciembre 2023 - Febrero 2024",
+    points: [
+      "Desarrollo de proyectos del área educativa.",
+      "Software de biblioteca y préstamos con backend en SpringBoot, Front con FreeMarker y JQuery para el contenido dinámico. Utilizando PostgreSql para la base de datos"
+    ],
+  },
+  {
+    title: "Desarrollador de Software",
     company_name: "EDSA",
     icon: edsa,
     iconBg: "#383E56",
-    date: "Abril 2021 - Actualidad",
+    date: "Abril 2021 - Noviembre 2023",
     points: [
       "Participando en desarrollo de nuevas funcionalidades a una aplicación Android nativa programada en Java con servicio en Spring, esta aplicación se conecta con un ERP por medio de SP a una base SQL Server.",
       "Mantenimiento de ERP desarrollado en Centura, me encontré con el desafío de aprender este lenguaje entrando al equipo.",

@@ -20,7 +20,7 @@ export default {
         card: "0px 35px 120px -15px #211e35",
       },
       screens: {
-        xs: "450px",
+        xs: "480px",
         xxl: "1500px",
         xxxl: "2000px",
       },
