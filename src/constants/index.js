@@ -14,7 +14,7 @@ import {
   git,
   edsa,
   mcl,
-  threejs,
+  konexaLogo,
   minecraftClone,
   crow1render,
   rickandmortygifs,
@@ -26,12 +26,11 @@ import {
   java,
   mysql,
   nextjs,
+  springBoot,
+  postgresql,
   postman,
-  python,
   solidity,
   sqlServer,
-  thirdewb,
-  vsCode,
 } from "../assets";
 
 export const navLinks = [
@@ -125,30 +124,11 @@ const skills = [
         image:
           nextjs,
       },
-      /* {
-        name: "HTML",
-        image: html,
-      },
-      {
-        name: "CSS",
-        image:
-          css,
-      },
-      {
-        name: "JavaScript",
-        image:
-          javascript,
-      }, */
       {
         name: "TailwindCSS",
         image:
           tailwind,
       },
-      /* {
-        name: "ThreeJs",
-        image:
-          threejs,
-      }, */
     ],
   },
   {
@@ -160,32 +140,27 @@ const skills = [
       },
       {
         name: "Express Js",
-        image:
-          expressjs,
+        image: expressjs,
       },
-      /*      {
-             name: "Python",
-             image:
-               python,
-           }, */
       {
         name: "MySQL",
-        image:
-          mysql,
+        image: mysql,
       },
       {
         name: "SQLServer",
-        image:
-          sqlServer,
+        image: sqlServer,
       },
-      /*       {
-              name: "MongoDB",
-              image:
-                mongodb,
-            }, */
       {
         name: "Firebase",
         image: firebase,
+      },
+      {
+        name: "PostgreSQL",
+        image: postgresql,
+      },
+      {
+        name: "SpringBoot",
+        image: springBoot,
       },
     ],
   },
@@ -212,26 +187,11 @@ const skills = [
   {
     title: "Otros",
     skills: [
-      /* {
-        name: "Git",
-        image:
-          git,
-      }, */
       {
         name: "GitHub",
         image:
           GitHub,
       },
-      /* {
-        name: "Thirdweb",
-        image:
-          thirdewb,
-      },
-      {
-        name: "VS Code",
-        image:
-          vsCode,
-      }, */
       {
         name: "Postman",
         image:
@@ -247,6 +207,17 @@ const skills = [
 ];
 
 const experiences = [
+  {
+    title: "Desarrollador backend",
+    company_name: "Konexa",
+    icon: konexaLogo,
+    iconBg: "#383E56",
+    date: "Agosto 2024 - Actualidad",
+    points: [
+      "Desarrollo de  en celula de importante cliente financiero.",
+      "Implementando microservicios en SpringBoot, con BD PostgreSql y ocacionalmente mejoras en frontend con React en webApp publica."
+    ],
+  },
   {
     title: "Desarrollador de Software",
     company_name: "MCL Consulting",
