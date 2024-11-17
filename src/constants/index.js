@@ -214,7 +214,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Agosto 2024 - Actualidad",
     points: [
-      "Desarrollo de  en celula de importante cliente financiero.",
+      "Desarrollo en celula de importante cliente financiero.",
       "Implementando microservicios en SpringBoot, con BD PostgreSql y ocacionalmente mejoras en frontend con React en webApp publica."
     ],
   },
