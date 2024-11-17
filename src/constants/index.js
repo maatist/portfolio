@@ -215,7 +215,7 @@ const experiences = [
     date: "Agosto 2024 - Actualidad",
     points: [
       "Desarrollo en celula de importante cliente financiero.",
-      "Implementando microservicios en SpringBoot, con BD PostgreSql y ocacionalmente mejoras en frontend con React en webApp publica."
+      "Implementando microservicios en SpringBoot, con BD PostgreSql y ocasionalmente mejoras en frontend con React en webApp pública."
     ],
   },
   {
