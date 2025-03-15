@@ -37,7 +37,7 @@ import springBoot from "./tech/spring-boot.png"
 import edsa from "./company/edsa.png";
 import mcl from "./company/mcl.png";
 import konexaLogo from "./company/konexaLogo.png"
-import unoAfpLogo from "./company/unoAfpLogo.png"
+import unoAfpLogo from "./company/unoAfp.png"
 
 import minecraftClone from "./minecraft-clone.png";
 import crow1render from "./crow1render.png";
