@@ -15,6 +15,7 @@ import {
   edsa,
   mcl,
   konexaLogo,
+  unoAfpLogo,
   minecraftClone,
   crow1render,
   rickandmortygifs,
@@ -208,11 +209,22 @@ const skills = [
 
 const experiences = [
   {
+    title: "Desarrollador Fullstack",
+    company_name: "AFP Uno",
+    icon: unoAfpLogo,
+    iconBg: "#383E56",
+    date: "Enero 2025 - Actualidad",
+    points: [
+      "Desarrollo en celula para proyectos de uso interno en la AFP.",
+      "Implementando microservicios en SpringBoot, con BD PostgreSql y React para el frontend"
+    ],
+  },
+  {
     title: "Desarrollador backend",
     company_name: "Konexa",
     icon: konexaLogo,
     iconBg: "#383E56",
-    date: "Agosto 2024 - Actualidad",
+    date: "Agosto 2024 - Enero 2025",
     points: [
       "Desarrollo en celula de importante cliente financiero.",
       "Implementando microservicios en SpringBoot, con BD PostgreSql y ocasionalmente mejoras en frontend con React en webApp pública."
