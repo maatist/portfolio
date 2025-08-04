@@ -54,6 +54,7 @@ const Skills = () => {
                                         >
                                             <img
                                                 className='w-[34px] h-[34px]'
+                                                alt={item.name}
                                                 src={item.image}
                                             />
                                             {item.name}

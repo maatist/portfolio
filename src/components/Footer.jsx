@@ -18,7 +18,7 @@ const Footer = () => {
                     <div className='text-center' >
                         <div>
                             <FontAwesomeIcon icon={faCopyright} /> <strong> <span>MATISETO</span> </strong>
-                            2024
+                            2025
                         </div>
                     </div>
                     <div>
@@ -26,7 +26,7 @@ const Footer = () => {
                         <a href={resume} download="Matias Sepulveda CV" className='w-10 h-10 rounded-full pt-1 mr-7'>
                             Descargar CV <FontAwesomeIcon size='xl' icon={faFile} className='ml-1' />
                         </a>
-                        <a href="https://www.linkedin.com/in/matiseto/" className='w-10 h-10 rounded-full pt-1'>
+                        <a aria-label="Link de redirreccion a mi linkedin" href="https://www.linkedin.com/in/matiseto/" className='w-10 h-10 rounded-full pt-1'>
                             <FontAwesomeIcon size='xl' icon={faLinkedin} />
                         </a>
                     </div>
