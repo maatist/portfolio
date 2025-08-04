@@ -38,22 +38,17 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div
-        variants={textVariant()}
-      >
-        <p className={styles.sectionSubText}>Introduccion.</p>
-        <h2 className={styles.sectionHeadText} >Vista general.</h2>
-      </motion.div>
+      <p className={styles.sectionSubText}>Introduccion.</p>
+      <h2 className={styles.sectionHeadText} >Vista general.</h2>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] maw-w-3xl leading-[30px]'
-      >
-        Soy un desarrollador web full stack con sede en la Ciudad de Viña Del Mar, Chile. <br />
-        Tengo experiencia en el desarrollo de aplicaciones web, blockchain y mobile. <br />
+
+      <div className='mt-4 text-secondary text-[17px] maw-w-3xl leading-[30px]'>
+        Soy un desarrollador web full stack con sede en la Ciudad de Coquimbo, Chile. <br />
+        Tengo experiencia en el desarrollo de aplicaciones web, mobile y blockchain. <br />
         Mi objetivo es siempre construir productos que proporcionen experiencias agradables e intuitivas junto con soluciones efectivas. <br />
         Me encantaria crear cosas que se puedan visualizar en la web en un periodo corto de tiempo, que sea util para el cliente y en lo posible relacionado con la web3.
-      </motion.p>
+      </div>
+
 
       <div
         className='mt-20 flex flex-wrap gap-10 justify-content'

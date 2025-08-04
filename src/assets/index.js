@@ -31,9 +31,13 @@ import solidity from "./tech/solidity.png";
 import sqlServer from "./tech/sqlServer.png";
 import thirdewb from "./tech/thirdweb.png";
 import vsCode from "./tech/vsCode.png";
+import postgresql from "./tech/postgresql.png"
+import springBoot from "./tech/spring-boot.png"
 
 import edsa from "./company/edsa.png";
 import mcl from "./company/mcl.png";
+import konexaLogo from "./company/konexaLogo.png"
+import unoAfpLogo from "./company/unoAfp.png"
 
 import minecraftClone from "./minecraft-clone.png";
 import crow1render from "./crow1render.png";
@@ -63,6 +67,8 @@ export {
   threejs,
   edsa,
   mcl,
+  konexaLogo,
+  unoAfpLogo,
   minecraftClone,
   crow1render,
   rickandmortygifs,
@@ -80,5 +86,7 @@ export {
   sqlServer,
   thirdewb,
   vsCode,
+  postgresql,
+  springBoot,
   resume,
 };
